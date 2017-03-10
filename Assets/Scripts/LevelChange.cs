@@ -7,30 +7,35 @@ using UnityEngine.SceneManagement;
 
 public class LevelChange : MonoBehaviour {
 
-	public float _timer;
 	public string _newLevel;
+	public bool _isLocked;
 
-	private float _timerDefault;
+	private Material _originalMat;
 
 	// Use this for initialization
 	void Start () {
-		_timerDefault = _timer;
+		_originalMat = this.gameObject.GetComponent<Renderer> ().material;
+		if (_isLocked) {
+			this.gameObject.GetComponent<Renderer> ().material.color = Color.red;
+		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (this.gameObject.GetComponent<VRTK_InteractableObject> ().IsTouched ()) {
-			if (_timer > 0) {
-				_timer -= Time.deltaTime;
-			} else {
-				changeScene ();
-			}
-		} else {
-			_timer = _timerDefault;
+		if (this.gameObject.GetComponent<VRTK_InteractableObject> ().IsTouched () && !_isLocked) {
+			changeScene ();
 		}
 	}
 
 	void changeScene() {
 		SceneManager.LoadScene (_newLevel);
+	}
+
+	void OnCollisionEnter(Collision col) {
+		if (col.gameObject.tag == "Key" && _isLocked) {
+			_isLocked = false;
+			this.gameObject.GetComponent<Renderer> ().material = _originalMat;
+			Destroy (col.gameObject);
+		}
 	}
 }
