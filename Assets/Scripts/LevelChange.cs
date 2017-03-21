@@ -10,11 +10,8 @@ public class LevelChange : MonoBehaviour {
 	public string _newLevel;
 	public bool _isLocked;
 
-	private Material _originalMat;
-
 	// Use this for initialization
 	void Start () {
-		_originalMat = this.gameObject.GetComponent<Renderer> ().material;
 		if (_isLocked) {
 			this.gameObject.GetComponent<Renderer> ().material.color = Color.red;
 		}
@@ -34,7 +31,7 @@ public class LevelChange : MonoBehaviour {
 	void OnCollisionEnter(Collision col) {
 		if (col.gameObject.tag == "Key" && _isLocked) {
 			_isLocked = false;
-			this.gameObject.GetComponent<Renderer> ().material = _originalMat;
+			this.gameObject.GetComponent<Renderer> ().material.color = Color.blue;
 			Destroy (col.gameObject);
 		}
 	}
