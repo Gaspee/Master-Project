@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\WaterWave.cs">
+    <Files>
+      <File FileName="Assets\Scripts\LevelChange.cs" Line="22" Column="64" />
+      <File FileName="Assets\WaterWave.cs" Line="33" Column="16" />
+      <File FileName="Assets\Scripts\ScaleBackOnDrop.cs" Line="27" Column="58" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

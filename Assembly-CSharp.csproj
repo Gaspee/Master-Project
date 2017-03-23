@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9F692974-37AF-B6DF-C35F-1ABE569875AF}</ProjectGuid>
+    <ProjectGuid>{619A2912-3A9D-F7F9-AFCA-DEE6F44E6624}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;VRTK_SDK_STEAMVR</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;VRTK_SDK_STEAMVR;TILTBRUSH_STEAMVRPRESENT</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -39,58 +39,13 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Libraries\GoogleVR\DemoScenes\ControllerDemo\ControllerDebugInfo.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\DemoScenes\ControllerDemo\ControllerDemoManager.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\DemoScenes\HeadsetDemo\Teleport.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Legacy\Scripts\GvrHead.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Legacy\Scripts\Internal\GvrCameraUtils.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Legacy\Scripts\Internal\GvrEye.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Legacy\Scripts\Internal\GvrPostRender.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Legacy\Scripts\Internal\GvrPreRender.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Legacy\Scripts\Internal\GvrProfile.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Legacy\Scripts\Internal\StereoController.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Legacy\Scripts\Internal\StereoRenderEffect.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Legacy\Scripts\Internal\VRDevices\AndroidDevice.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Legacy\Scripts\Internal\VRDevices\BaseAndroidDevice.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Legacy\Scripts\Internal\VRDevices\BaseVRDevice.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Legacy\Scripts\Internal\VRDevices\EditorDevice.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Legacy\Scripts\Internal\VRDevices\GvrDevice.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Legacy\Scripts\Internal\VRDevices\UnityVRDevice.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Legacy\Scripts\Internal\VRDevices\iOSDevice.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Audio\GvrAudio.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Audio\GvrAudioListener.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Audio\GvrAudioRoom.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Audio\GvrAudioSoundfield.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Audio\GvrAudioSource.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Controller\GvrController.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Controller\Internal\ControllerProviderFactory.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Controller\Internal\ControllerProviders\AndroidNativeControllerProvider.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Controller\Internal\ControllerProviders\DummyControllerProvider.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Controller\Internal\ControllerProviders\EmulatorControllerProvider.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Controller\Internal\ControllerState.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorClientSocket.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorConfig.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorDataTypes.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorManager.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Controller\Internal\Emulator\PhoneEvent.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Controller\Internal\IControllerProvider.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\GazeInputModule.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\GvrSettings.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\GvrViewer.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Pose3D.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\UI\GvrGaze.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\UI\GvrReticle.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\UI\IGvrGazePointer.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\UI\IGvrGazeResponder.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
-     <Compile Include="Assets\Libraries\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
      <Compile Include="Assets\Libraries\SteamVR\Extras\SteamVR_GazeTracker.cs" />
      <Compile Include="Assets\Libraries\SteamVR\Extras\SteamVR_LaserPointer.cs" />
      <Compile Include="Assets\Libraries\SteamVR\Extras\SteamVR_Teleporter.cs" />
@@ -193,6 +148,55 @@
      <Compile Include="Assets\Libraries\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
      <Compile Include="Assets\Libraries\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
      <Compile Include="Assets\Libraries\SteamVR\Scripts\SteamVR_Utils.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Gear\AnimatorGear.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Gear\CameraGear.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Gear\ConstantMotionGear.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Gear\GenericCurveGear.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Gear\GenericGradientGear.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Gear\GenericTriggerGear.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Gear\GlobalSettingGear.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Gear\JitterMotionGear.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Gear\LightGear.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Gear\MaterialGear.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Gear\ParticleSystemGear.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Gear\SpawnerGear.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Gear\TransformGear.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Injector\AudioInjector.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Injector\SystemAudioInjector.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Internal\GenericLink.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Internal\InjectorBase.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Internal\InjectorLink.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Internal\Modifier.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Internal\Perlin.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Internal\ReaktorLink.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Internal\Remote.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Internal\Trigger.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Reaktor\Reaktor.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Utility\BandPassFilter.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Utility\ConstantMotion.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Utility\GenericAudioInput.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Utility\JitterMotion.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Utility\ObjectParticleSystem.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Utility\Planter.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Utility\SelfDestruction.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Utility\Spawner.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Utility\TurbulentMotion.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\ThirdParty\Reaktion\Utility\VariableMotion.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\TiltBrush\Scripts\VisualizerAudioInput.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\TiltBrush\Scripts\VisualizerManager.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\TiltBrushExamples\Assets\Scripts\Orbit.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\TiltBrushExamples\Assets\Scripts\React.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\TiltBrushExamples\Assets\Scripts\Sequence.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\TiltBrushExamples\Assets\Scripts\Story\BaseTrigger.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\TiltBrushExamples\Assets\Scripts\Story\PulseScale.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\TiltBrushExamples\Assets\Scripts\Story\StoryArrowNavigation.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\TiltBrushExamples\Assets\Scripts\Story\StoryManager.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\TiltBrushExamples\Assets\Scripts\Story\StoryScene.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\TiltBrushExamples\Assets\Scripts\Story\StoryTeleportPoint.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\TiltBrushExamples\Assets\Scripts\Story\StoryTeleportTrigger.cs" />
+     <Compile Include="Assets\Libraries\TiltBrush\TiltBrushExamples\Assets\Scripts\VRInput.cs" />
+     <Compile Include="Assets\Libraries\Tween\Demo\TweenDemo.cs" />
+     <Compile Include="Assets\Libraries\Tween\Tween.cs" />
      <Compile Include="Assets\Libraries\VRTK\Examples\Resources\Scripts\Archery\Arrow.cs" />
      <Compile Include="Assets\Libraries\VRTK\Examples\Resources\Scripts\Archery\ArrowNotch.cs" />
      <Compile Include="Assets\Libraries\VRTK\Examples\Resources\Scripts\Archery\ArrowSpawner.cs" />
@@ -372,61 +376,81 @@
      <Compile Include="Assets\Libraries\VRTK\Scripts\Utilities\VRTK_SharedMethods.cs" />
      <Compile Include="Assets\Libraries\VRTK\Scripts\Utilities\VRTK_Simulator.cs" />
      <Compile Include="Assets\Scripts\LevelChange.cs" />
+     <Compile Include="Assets\Scripts\ScaleBackOnDrop.cs" />
+     <Compile Include="Assets\WaterWave.cs" />
      <None Include="Assets\Libraries\VRTK\Version.txt" />
-     <None Include="Assets\Libraries\GoogleVR\Distortion\GvrDistortion.cginc" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrushExamples\Assets\Shaders\Skybox.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\SoftHighlighter\SoftHighlighter.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\Hypercolor\Hypercolor.shader" />
      <None Include="Assets\Libraries\SteamVR\Resources\SteamVR_Fade.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\HyperGrid\HyperGrid.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\Toon\Toon.shader" />
      <None Include="Assets\Libraries\SteamVR\Resources\SteamVR_ClearAll.shader" />
      <None Include="Assets\Libraries\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
-     <None Include="Assets\Libraries\GoogleVR\Legacy\Resources\UnlitTexture.shader" />
+     <None Include="Assets\Libraries\Tween\Readme.txt" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Shared\Shaders\DiffuseOpaque.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Shaders\Unlit-Diffuse.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\Disco\Disco.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\WaveformPulse\NeonPulse.shader" />
      <None Include="Assets\Libraries\VRTK\Scripts\Internal\Shaders\UIOverlay.shader" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Libraries\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\Highlighter\AdditiveCutout.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Shaders\Brush.cginc" />
      <None Include="Assets\Libraries\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
      <None Include="Assets\Libraries\VRTK\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
-     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
-     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-     <None Include="Assets\Animations\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\Waveform\Waveform.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\VelvetInk\VelvetInk.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Shared\Shaders\Bloom.shader" />
+     <None Include="Assets\Libraries\TiltBrush\ThirdParty\Noise\Shaders\Noise.cginc" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\LightWire\LightWire.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Shared\Shaders\Diffuse.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Shared\Shaders\Unlit.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrushExamples\Assets\Materials\AlwaysVisible.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\DoubleTaperedFlat\DiffuseNoTextureDoubleSided.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\Fire\Fire.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\Streamers\Streamers.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\Rainbow\Rainbow.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\DoubleTaperedMarker\DoubleTaperedMarker.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\Plasma\Plasma.shader" />
      <None Include="Assets\Libraries\Plugins\Android\AndroidManifest-Daydream.xml" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\VERSION.txt" />
      <None Include="Assets\Libraries\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
-     <None Include="Assets\Libraries\GoogleVR\Resources\UI\GvrReticleShader.shader" />
      <None Include="Assets\Libraries\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\Electricity\Electricity.shader" />
      <None Include="Assets\Libraries\VRTK\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
      <None Include="Assets\Libraries\SteamVR\readme.txt" />
      <None Include="Assets\Libraries\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
      <None Include="Assets\Libraries\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\Libraries\SteamVR\Resources\SteamVR_ColorOut.shader" />
      <None Include="Assets\Libraries\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
      <None Include="Assets\Libraries\Plugins\Android\AndroidManifest-Cardboard.xml" />
-     <None Include="Assets\Libraries\GoogleVR\Legacy\Resources\SolidColor.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Basic\ChromaticWave\ChromaticWave.shader" />
+     <None Include="Assets\Libraries\TiltBrush\TiltBrush\Assets\Brushes\Shared\Shaders\Standard.shader" />
      <None Include="Assets\Libraries\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.PlaymodeTestsRunner">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Users/WHP/Dropbox/JR/Round 2wo/Gaspee VR/Gaspee/Assets/Libraries/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>C:/Users/wpicklem/Desktop/Unity Projects/Master-Project/Assets/Libraries/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{46515969-E235-71C4-2434-B14644A70953}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+ <Reference Include="CSCore">
+ <HintPath>C:/Users/wpicklem/Desktop/Unity Projects/Master-Project/Assets/Libraries/TiltBrush/ThirdParty/CSCore/CSCore.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
